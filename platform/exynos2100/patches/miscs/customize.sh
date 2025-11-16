@@ -218,6 +218,11 @@ if [ -f "$VENDOR_PROP_CTX" ]; then
     sed -i '/init\.svc\.vendor\.wvkprov_server_hal/d' "$VENDOR_PROP_CTX"
 fi
 
+ADD_TO_WORK_DIR "e2sxxx" "system" "system/bin/gpuservice" 0 0 755 "u:object_r:system_file:s0"
+ADD_TO_WORK_DIR "e2sxxx" "system" "system/bin/keystore2" 0 0 755 "u:object_r:system_file:s0"
+ADD_TO_WORK_DIR "e2sxxx" "system" "system/bin/keystore_cli_v2" 0 0 755 "u:object_r:system_file:s0"
+ADD_TO_WORK_DIR "e2sxxx" "system" "system/etc/preloaded-classes" 0 0 644 "u:object_r:system_file:s0"
+ADD_TO_WORK_DIR "e2sxxx" "system" "system/lib64/libgpuwork.so" 0 0 644 "u:object_r:system_file:s0"
 ADD_TO_WORK_DIR "r11sxxx" "system" "system/apex/com.google.android.tethering_compressed.apex" 0 0 644 "u:object_r:system_file:s0"
 LOG_STEP_OUT
 
