@@ -23,35 +23,25 @@ MonsterROM supports devices using the Exynos 2100 SoCs
 Any form of contribution, suggestions, bug report or feature request for the project will be welcome.
 
 # Features
-- Based on the latest stable OneUI 5 Galaxy S25 Ultra firmware
+- Based on the latest stable OneUI 8.5 Galaxy S25 Ultra firmware
 - All software features from S25 Ultra
 - S25 Ultra CSC, ringtones and more
 - Moderately Debloated
-- Heavily DeKnoxed
-- Full SELinux Support
 - Full Galaxy AI support
-- Completely upstreamed kernels for all officially supported devices
 - Now Brief Support
-- Adaptive color tone support
 - Super HDR support
 - Adaptive Brightness support
-- Full CSC support
 - Adaptive Refresh Rate support (for some models)
 - Multi-User support
-- AppLock support
 - EroFS partitions
 - Stock models in Settings and user apps
 - High end animations
 - Native/live blur support
 - Debloated from useless system services/additional apps
-- [KnoxPatch](https://github.com/salvogiangri/KnoxPatch) implemented in system frameworks
-- Extra mods (Disable Secure Flag, OutDoor mode, more coming soon)
-- Extra CSC features (Call recording, Network speed in status bar, 5GHz Hotspot)
 - Countless other small optimizations
-- More that I can't remember right now and will have to be added in the future
 
 # Bugs
-See the <a href="https://github.com/devcore94/MonsterROM/issues">⚠ Issues</a> tab
+bluetooth, some small camerastuffs, needs selinux permissive.
 
 # Licensing
 This project is licensed under the terms of the [GNU General Public License v3.0](LICENSE). External dependencies might be distributed under a different license, such as:
