@@ -1,31 +1,30 @@
 <h1 align="center">
-  <img loading="lazy" src="readme-res/banner.png"/>
+  <img loading="lazy" src="readme-res/One-UI-8.5.png"/>
 </h1>
 <p align="center">
-  <a href="https://github.com/ExtremeXT/ExtremeROM/blob/fifteen/LICENSE"><img loading="lazy" src="https://img.shields.io/github/license/ExtremeXT/ExtremeROM?style=for-the-badge&logo=github"/></a>
-  <a href="https://github.com/ExtremeXT/ExtremeROM/commits/fifteen"><img loading="lazy" src="https://img.shields.io/github/last-commit/ExtremeXT/ExtremeROM/fifteen?style=for-the-badge"/></a>
-  <a href="https://github.com/ExtremeXT/ExtremeROM/stargazers"><img loading="lazy" src="https://img.shields.io/github/stars/ExtremeXT/ExtremeROM?style=for-the-badge"/></a>
-  <a href="https://github.com/ExtremeXT/ExtremeROM/graphs/contributors"><img loading="lazy" src="https://img.shields.io/github/contributors/ExtremeXT/ExtremeROM?style=for-the-badge"/></a>
+  <a href="https://github.com/devcore94/MonsterROM/blob/fifteen/LICENSE"><img loading="lazy" src="https://img.shields.io/github/license/devcore94/MonsterROM?style=for-the-badge&logo=github"/></a>
+  <a href="https://github.com/devcore94/MonsterROM/commits/fifteen"><img loading="lazy" src="https://img.shields.io/github/last-commit/devcore94/MonsterROM?style=for-the-badge"/></a>
+  <a href="https://github.com/devcore94/MonsterROM/stargazers"><img loading="lazy" src="https://img.shields.io/github/stars/devcore94/MonsterROM?style=for-the-badge"/></a>
+  <a href="https://github.com/devcore94/MonsterROM/graphs/contributors"><img loading="lazy" src="https://img.shields.io/github/contributors/devcore94/MonsterROM?style=for-the-badge"/></a>
 </p>
 <p align="center">ExtremeROM Nexus is a work-in-progress custom firmware for Samsung Galaxy devices.</p>
 
 <p align="center">
-  <a href="https://t.me/extremerom">💬 Telegram</a>
-  <a href="https://github.com/ExtremeXT/ExtremeROM/wiki">📖 Wiki</a>
-  <a href="https://github.com/ExtremeXT/ExtremeROM/blob/fifteen/CHANGELOG.md">📝 Changelog</a>
-  <a href="https://github.com/ExtremeXT/ExtremeROM/blob/fifteen/MAINTAINERS">🧑‍💻 Maintainers</a>
+  <a href="https://t.me/monsterrom6">💬 Telegram</a>
+  <a href="https://github.com/devcore94/MonsterROM/CHANGELOG.md">📝 Changelog</a>
+  <a href="https://github.com/devcore94/MonsterROM/MAINTAINERS">🧑‍💻 Maintainers</a>
 </p>
 
-# What is ExtremeROM Nexus?
-ExtremeROM Nexus is a work-in-progress custom firmware for Samsung Galaxy devices. It's based on the latest and greatest iteration of Samsung's UX and it also includes additional features and tweaks to ensure the best possible experience out of the box.
+# What is MonsterROM?
+MonsterROM is a work-in-progress custom firmware for Samsung Galaxy devices. It's based on the latest and greatest iteration of Samsung's UX and it also includes additional features and tweaks to ensure the best possible experience out of the box.
 It is based on the UN1CA build system which allows automatic downloading/extraction of the firmware, applying the required patches and generating a flashable zip package for the specified target device.
-ExtremeROM Nexus supports devices using the Exynos 9820, Exynos 990, Exynos 2100 and Exynos 2200 SoCs
+MonsterROM supports devices using the Exynos 2100 SoCs
 
 Any form of contribution, suggestions, bug report or feature request for the project will be welcome.
 
 # Features
-- Based on the latest stable OneUI 7 Galaxy S24 FE firmware
-- All software features from S24 FE
+- Based on the latest stable OneUI 5 Galaxy S25 Ultra firmware
+- All software features from S25 Ultra
 - S25 Ultra CSC, ringtones and more
 - Moderately Debloated
 - Heavily DeKnoxed
@@ -45,7 +44,6 @@ Any form of contribution, suggestions, bug report or feature request for the pro
 - High end animations
 - Native/live blur support
 - Debloated from useless system services/additional apps
-- [BluetoothLibraryPatcher](https://github.com/3arthur6/BluetoothLibraryPatcher) included
 - [KnoxPatch](https://github.com/salvogiangri/KnoxPatch) implemented in system frameworks
 - Extra mods (Disable Secure Flag, OutDoor mode, more coming soon)
 - Extra CSC features (Call recording, Network speed in status bar, 5GHz Hotspot)
@@ -53,7 +51,7 @@ Any form of contribution, suggestions, bug report or feature request for the pro
 - More that I can't remember right now and will have to be added in the future
 
 # Bugs
-See the <a href="https://github.com/ExtremeXT/ExtremeROM/issues">⚠ Issues</a> tab
+See the <a href="https://github.com/devcore94/MonsterROM/issues">⚠ Issues</a> tab
 
 # Licensing
 This project is licensed under the terms of the [GNU General Public License v3.0](LICENSE). External dependencies might be distributed under a different license, such as:
@@ -113,7 +111,6 @@ A big thanks goes to the following for their invaluable contributions in no part
 - **[RayShocker](https://github.com/RayShocker)** for HRM fix
 - **[Szucsy92](https://github.com/Szucsy92)** for SingleTake fix
 - **[Kurt](https://github.com/kurtbahartr)** for ASCII art and some minor fixes
-- **@april865** (TG) for ExtremeROM Nexus banner
 - And everyone else who aided in testing, wiki, translations etc!
 
 Original UN1CA credits:
@@ -137,4 +134,4 @@ Original UN1CA credits:
 - 2200 Device Tree Code (Maintainer: @dupazlasu): https://github.com/dupazlasu/android_device_samsung_s5e9925
 
 # Stargazers over time
-[![Stargazers over time](https://starchart.cc/ExtremeXT/ExtremeROM.svg)](https://starchart.cc/ExtremeXT/ExtremeROM)
+[![Stargazers over time](https://starchart.cc/devcore94/MonsterROM.svg)](https://starchart.cc/devcore94/MonsterROM)
