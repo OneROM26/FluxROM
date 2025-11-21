@@ -23,7 +23,7 @@ MonsterROM supports devices using the Exynos 2100 SoCs
 Any form of contribution, suggestions, bug report or feature request for the project will be welcome.
 
 # Features
-- Based on the latest stable OneUI 8.5 Galaxy S25 Ultra firmware
+- Based on the latest pre-release OneUI 8.5 Galaxy S25 Ultra firmware
 - All software features from S25 Ultra
 - S25 Ultra CSC, ringtones and more
 - Moderately Debloated
