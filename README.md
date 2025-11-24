@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img loading="lazy" src="readme-res/One-UI-8.5.png"/>
+  <img loading="lazy" src="readme-res/banner.png"/>
 </h1>
 <p align="center">
   <a href="https://github.com/devcore94/MonsterROM/blob/fifteen/LICENSE"><img loading="lazy" src="https://img.shields.io/github/license/devcore94/MonsterROM?style=for-the-badge&logo=github"/></a>
@@ -7,7 +7,7 @@
   <a href="https://github.com/devcore94/MonsterROM/stargazers"><img loading="lazy" src="https://img.shields.io/github/stars/devcore94/MonsterROM?style=for-the-badge"/></a>
   <a href="https://github.com/devcore94/MonsterROM/graphs/contributors"><img loading="lazy" src="https://img.shields.io/github/contributors/devcore94/MonsterROM?style=for-the-badge"/></a>
 </p>
-<p align="center">ExtremeROM Nexus is a work-in-progress custom firmware for Samsung Galaxy devices.</p>
+<p align="center">MonsterROM is a work-in-progress custom firmware for Samsung Galaxy devices.</p>
 
 <p align="center">
   <a href="https://t.me/monsterrom6">💬 Telegram</a>
