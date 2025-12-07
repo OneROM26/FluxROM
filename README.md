@@ -23,8 +23,8 @@ MonsterROM supports devices using the Exynos 2100 SoCs
 Any form of contribution, suggestions, bug report or feature request for the project will be welcome.
 
 # Features
-- Based on the latest pre-release OneUI 8.5 Galaxy S25 Ultra firmware
-- All software features from S25 Ultra
+- Based on the latest pre-release OneUI 8.5 Galaxy S24+ firmware
+- All software features from S24+
 - S25 Ultra CSC, ringtones and more
 - Moderately Debloated
 - Full Galaxy AI support
@@ -41,7 +41,7 @@ Any form of contribution, suggestions, bug report or feature request for the pro
 - Countless other small optimizations
 
 # Bugs
-bluetooth, some small camerastuffs, needs selinux permissive.
+Some Small Camerastuffs.
 
 # Licensing
 This project is licensed under the terms of the [GNU General Public License v3.0](LICENSE). External dependencies might be distributed under a different license, such as:
