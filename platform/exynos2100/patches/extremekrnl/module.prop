@@ -1,4 +1,4 @@
-id=extremekrnl
-name=ExtremeKRNL Kernel support
-author=ExtremeXT
-description=Adds ExtremeKRNL in ROM.
+id=chiclet
+name=Chiclet Kernel
+author=xfwdrev
+description=Adds vanilla Chiclet Kernel to the ROM

@@ -7,11 +7,11 @@ SET_PROP "vendor" "renderthread.skia.reduceopstasksplitting" "true"
 SET_PROP "vendor" "debug.hwui.skia_atrace_enabled" "false"
 LOG_STEP_OUT
 
-LOG_STEP_IN "- Normalize security/unlock
+LOG_STEP_IN "- Normalize security/unlock"
 SET_PROP "system" "ro.security.fips.ux" "Disabled"
 LOG_STEP_OUT
 
-LOG_STEP_IN "- Applying 32bit
+LOG_STEP_IN "- Applying 32bit"
 SET_PROP "vendor" "dalvik.vm.dex2oat64.enabled" "true"
 LOG_STEP_OUT
 
@@ -200,30 +200,11 @@ if [ -f "$PLAT_SEPOLICY" ]; then
     echo "Appending genconfsrulesfix to $PLAT_SEPOLICY"
     cat <<'EOF' >> "$PLAT_SEPOLICY"
 (genfscon bpf "/cputimeinstate" (u object_r fs_bpf_cputimeinstate ((s0) (s0))))
-(genfscon proc "/sys/vm/dirty_writeback_centisecs" (u object_r proc_dirty ((s0) (s0))))
-(genfscon proc "/sys/kernel/firmware_config" (u object_r proc_firmware_config ((s0) (s0))))
-(genfscon sysfs "/devices/virtual/misc/ublk-control/" (u object_r sysfs_ublk ((s0) (s0))))
-(genfscon sysfs "/devices/virtual/block/ublk" (u object_r sysfs_ublk ((s0) (s0))))
-(genfscon sysfs "/class/ublk-char/" (u object_r sysfs_ublk ((s0) (s0))))
 (genfscon sysfs "/kernel/btf" (u object_r sysfs_btf ((s0) (s0))))
-(genfscon tracefs "/events/f2fs/f2fs_set_page_dirty/" (u object_r debugfs_tracing ((s0) (s0))))
-(genfscon tracefs "/hypervisor" (u object_r debugfs_tracing ((s0) (s0))))
 EOF
 fi
 
-# Remove unwanted property context
-VENDOR_PROP_CTX="$WORK_DIR/vendor/etc/selinux/vendor_property_contexts"
-if [ -f "$VENDOR_PROP_CTX" ]; then
-    echo "Removing init.svc.vendor.wvkprov_server_hal from $VENDOR_PROP_CTX"
-    sed -i '/init\.svc\.vendor\.wvkprov_server_hal/d' "$VENDOR_PROP_CTX"
-fi
-
-ADD_TO_WORK_DIR "e2sxxx" "system" "system/bin/gpuservice" 0 0 755 "u:object_r:system_file:s0"
-ADD_TO_WORK_DIR "e2sxxx" "system" "system/bin/keystore2" 0 0 755 "u:object_r:system_file:s0"
-ADD_TO_WORK_DIR "e2sxxx" "system" "system/bin/keystore_cli_v2" 0 0 755 "u:object_r:system_file:s0"
-ADD_TO_WORK_DIR "e2sxxx" "system" "system/etc/preloaded-classes" 0 0 644 "u:object_r:system_file:s0"
-ADD_TO_WORK_DIR "e2sxxx" "system" "system/lib64/libgpuwork.so" 0 0 644 "u:object_r:system_file:s0"
-ADD_TO_WORK_DIR "r11sxxx" "system" "system/apex/com.google.android.tethering_compressed.apex" 0 0 644 "u:object_r:system_file:s0"
+ADD_TO_WORK_DIR "r11sxxx" "system" "system/apex/com.google.android.tethering_compressed.apex" 0 0 644 
 LOG_STEP_OUT
 
 
